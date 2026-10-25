@@ -1,0 +1,336 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com data:; img-src 'self' data: https:; connect-src 'self'; frame-src 'none'; object-src 'none'; base-uri 'self'; form-action 'self'; upgrade-insecure-requests">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Royale Blings — Jewelry Collections Lookbook</title>
+<meta name="description" content="Royale Blings builds jewelry in small named collections — Vesper, Meridian, Après — each a family of pieces designed together. Browse the lookbook; the first drop arrives soon.">
+<link rel="canonical" href="https://royaleblings.com/">
+<meta property="og:title" content="Royale Blings — jewelry collections lookbook">
+<meta property="og:description" content="Small named collections, each a family of pieces designed together. The first drop arrives soon.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://royaleblings.com/">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%23F4E4B8'/%3E%3Cstop offset='.5' stop-color='%23E3C98F'/%3E%3Cstop offset='1' stop-color='%23957B42'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='16' fill='%230F241D'/%3E%3Ccircle cx='12.5' cy='16' r='6.5' fill='none' stroke='url(%23g)' stroke-width='2.6'/%3E%3Ccircle cx='19.5' cy='16' r='6.5' fill='none' stroke='url(%23g)' stroke-width='2.6'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italiana&family=Karla:ital,wght@0,400;0,500;0,700;1,400&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"JewelryStore","name":"Royale Blings","url":"https://royaleblings.com/","description":"Jewelry built in small named collections — families of pieces designed together and released as limited drops.","image":"https://royaleblings.com/","priceRange":"$$$"}
+</script>
+<style>
+:root{
+  --velvet:#0F241D; --pine:#16322A; --moss:#1E4237;
+  --champagne:#E3C98F; --cream:#F2EFE6; --sage:#9DB8AC; --copper:#B07A4F;
+  --disp:"Italiana",Georgia,serif; --body:"Karla",system-ui,sans-serif;
+}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+body{background:var(--velvet);color:var(--cream);font-family:var(--body);font-size:17px;line-height:1.65}
+a{color:var(--champagne)}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--champagne);outline-offset:2px}
+.wrap{max-width:1100px;margin:0 auto;padding:0 20px}
+header.site .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:22px 20px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;color:var(--cream)}
+.brand b{font-family:var(--disp);font-weight:400;font-size:1.6rem;letter-spacing:.06em}
+nav.main a{color:var(--sage);text-decoration:none;margin-left:24px;font-size:.93rem}
+nav.main a:hover{color:var(--champagne)}
+/* masthead */
+.mast{padding:52px 0 58px;border-bottom:1px solid var(--moss)}
+.mast .wrap{display:grid;grid-template-columns:1.2fr .8fr;gap:44px;align-items:end}
+.mast h1{font-family:var(--disp);font-weight:400;font-size:clamp(2.4rem,6vw,4.4rem);line-height:1.05;letter-spacing:.02em}
+.mast p.lede{margin-top:18px;max-width:50ch;color:var(--sage);font-size:1.08rem}
+.issue{border:1px solid var(--moss);padding:22px;font-size:.92rem;color:var(--sage)}
+.issue b{display:block;font-family:var(--disp);font-size:1.3rem;color:var(--champagne);font-weight:400;margin-bottom:6px}
+/* lookbook plates */
+.plate{border-bottom:1px solid var(--moss);padding:70px 0}
+.plate .wrap{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.plate:nth-of-type(even) .wrap > .art{order:2}
+.pkicker{font-family:var(--body);font-weight:700;color:var(--copper);font-size:.9rem;margin-bottom:8px}
+.plate h2{font-family:var(--disp);font-weight:400;font-size:clamp(2rem,4.4vw,3.2rem);letter-spacing:.04em;line-height:1.05}
+.plate p{margin-top:16px;max-width:46ch;color:var(--sage)}
+.plate ul{margin-top:18px;padding:0;list-style:none}
+.plate li{padding:9px 0;border-top:1px solid var(--moss);font-size:.95rem;display:flex;justify-content:space-between;gap:14px}
+.plate li span:last-child{color:var(--champagne);font-size:.85rem;white-space:nowrap}
+.art{background:var(--pine);border:1px solid var(--moss);padding:34px;display:grid;place-items:center}
+/* atelier note */
+.atelier{padding:66px 0;border-bottom:1px solid var(--moss)}
+.atelier .wrap{max-width:760px}
+.atelier h2{font-family:var(--disp);font-weight:400;font-size:clamp(1.6rem,3vw,2.3rem);margin-bottom:14px}
+.atelier p{color:var(--sage);margin-bottom:14px}
+.atelier p b{color:var(--cream);font-weight:500}
+/* drop list form */
+.drop{padding:66px 0}
+.drop .wrap{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:start}
+.drop h2{font-family:var(--disp);font-weight:400;font-size:clamp(1.6rem,3vw,2.3rem);margin-bottom:12px}
+.drop .sub{color:var(--sage);max-width:46ch}
+form{display:grid;gap:14px}
+label{font-weight:700;font-size:.88rem;display:block;margin-bottom:5px}
+input,select{width:100%;padding:12px;border:1px solid var(--moss);background:var(--pine);color:var(--cream);font:inherit;font-size:.95rem}
+.btn{display:inline-block;background:var(--champagne);color:var(--velvet);border:0;padding:13px 28px;font:inherit;font-weight:700;cursor:pointer}
+.btn:hover{background:#f0dba8}
+.form-note{font-size:.87rem;color:var(--sage)}
+footer{border-top:1px solid var(--moss);padding:40px 0 30px}
+footer .wrap{display:flex;justify-content:space-between;gap:26px;flex-wrap:wrap;align-items:baseline}
+footer .fbrand{font-family:var(--disp);font-size:1.3rem;letter-spacing:.06em}
+footer nav a{color:var(--sage);text-decoration:none;margin-right:20px;font-size:.92rem}
+footer nav a:hover{color:var(--champagne)}
+.fineprint{width:100%;margin-top:22px;padding-top:14px;border-top:1px solid var(--moss);font-size:.84rem;color:#6f8a7e;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
+@media (max-width:880px){
+  .mast .wrap,.plate .wrap,.drop .wrap{grid-template-columns:1fr}
+  .plate:nth-of-type(even) .wrap > .art{order:0}
+  nav.main a{margin-left:0;margin-right:18px}
+}
+</style>
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="brand" href="/" aria-label="Royale Blings home">
+      <svg width="38" height="38" viewBox="0 0 32 32" aria-hidden="true">
+        <defs>
+          <linearGradient id="rlG" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#F4E4B8"/><stop offset=".42" stop-color="#E3C98F"/><stop offset=".8" stop-color="#A9894C"/><stop offset="1" stop-color="#7C6232"/></linearGradient>
+          <linearGradient id="rlIn" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#F4E4B8"/><stop offset="1" stop-color="#957B42"/></linearGradient>
+          <linearGradient id="rlStT" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FDFEFE"/><stop offset="1" stop-color="#BECBD4"/></linearGradient>
+          <linearGradient id="rlStC" x1=".5" y1="0" x2=".5" y2="1"><stop offset="0" stop-color="#F6FAFC"/><stop offset="1" stop-color="#93A7B4"/></linearGradient>
+          <linearGradient id="rlDark" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#55606B"/><stop offset=".45" stop-color="#2E363E"/><stop offset="1" stop-color="#171C21"/></linearGradient>
+        </defs>
+        <rect width="32" height="32" rx="16" fill="#16322A"/>
+        <circle cx="12.5" cy="16" r="6.5" fill="none" stroke="url(#rlG)" stroke-width="2.8"/>
+        <circle cx="19.5" cy="16" r="6.5" fill="none" stroke="url(#rlG)" stroke-width="2.8"/>
+        <path d="M8 12.5 a6.5 6.5 0 0 1 4 -2.6" fill="none" stroke="#FBF1D4" stroke-width="1" stroke-linecap="round" opacity=".9"/>
+        <path d="M15 12.5 a6.5 6.5 0 0 1 4 -2.6" fill="none" stroke="#FBF1D4" stroke-width="1" stroke-linecap="round" opacity=".9"/>
+      </svg>
+      <b>ROYALE BLINGS</b>
+    </a>
+    <nav class="main" aria-label="Main">
+      <a href="#vesper">Vesper</a>
+      <a href="#meridian">Meridian</a>
+      <a href="#apres">Après</a>
+      <a href="#drop">Drop list</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<div class="mast">
+  <div class="wrap">
+    <div>
+      <h1>Jewelry in collections, not catalogs.</h1>
+      <p class="lede">Royale Blings designs families of pieces that belong together — a chain, a ring, an ear cuff sharing one silhouette and one stone story. Three collections open the house. This is their lookbook.</p>
+    </div>
+    <div class="issue">
+      <b>Lookbook № 1</b>
+      Autumn–Winter 2026. Three collections, eleven pieces, all in final sampling. Pieces release as limited drops — the first lands soon.
+    </div>
+  </div>
+</div>
+
+<article id="vesper" class="plate">
+  <div class="wrap">
+    <div class="art">
+      <svg width="320" height="260" viewBox="0 0 320 260" role="img" aria-label="Vesper collection: a gold crescent pendant on a fine chain with marquise stones">
+        <defs>
+          <filter id="vSh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#06120d" flood-opacity=".6"/></filter>
+        </defs>
+        <!-- fine chain: small rendered links -->
+        <g fill="none" stroke="url(#rlG)" stroke-width="3" stroke-linecap="round">
+          <path d="M30 22 q65 30 130 36 q65 -6 130 -36" stroke-dasharray="7 5"/>
+        </g>
+        <g filter="url(#vSh)">
+          <!-- crescent: two-tone gold with inner shadow -->
+          <path d="M160 86 a52 52 0 1 0 44 80 a40 40 0 1 1 -44 -80 z" fill="url(#rlG)" stroke="#7C6232" stroke-width="1.2"/>
+          <path d="M150 94 a46 46 0 0 0 -26 58" fill="none" stroke="#FBF1D4" stroke-width="3" stroke-linecap="round" opacity=".85"/>
+          <path d="M196 170 a46 46 0 0 1 -34 20" fill="none" stroke="#7C6232" stroke-width="2.4" stroke-linecap="round" opacity=".7"/>
+          <!-- bail -->
+          <circle cx="160" cy="64" r="8" fill="none" stroke="url(#rlG)" stroke-width="4.4"/>
+          <path d="M153 60 a8 8 0 0 1 6 -3.4" fill="none" stroke="#FBF1D4" stroke-width="1.4" stroke-linecap="round" opacity=".9"/>
+        </g>
+        <!-- marquise stones, faceted -->
+        <g filter="url(#vSh)">
+          <path d="M104 190 q8 -14 16 0 q-8 14 -16 0 z" fill="url(#rlStT)" stroke="#93A7B4" stroke-width=".8"/>
+          <path d="M104 190 h16 M112 179 v22" stroke="#ffffff" stroke-width=".7" fill="none" opacity=".7"/>
+          <path d="M140 212 q8 -14 16 0 q-8 14 -16 0 z" fill="url(#rlStC)" stroke="#93A7B4" stroke-width=".8"/>
+          <path d="M140 212 h16 M148 201 v22" stroke="#ffffff" stroke-width=".7" fill="none" opacity=".7"/>
+          <path d="M178 218 q8 -14 16 0 q-8 14 -16 0 z" fill="url(#rlStT)" stroke="#93A7B4" stroke-width=".8"/>
+          <path d="M178 218 h16 M186 207 v22" stroke="#ffffff" stroke-width=".7" fill="none" opacity=".7"/>
+        </g>
+        <path d="M236 96 l1.6 4.8 4.8 1.6 -4.8 1.6 -1.6 4.8 -1.6 -4.8 -4.8 -1.6 4.8 -1.6 Z" fill="#F4E4B8" opacity=".9"/>
+      </svg>
+    </div>
+    <div>
+      <p class="pkicker">Collection — evening</p>
+      <h2>VESPER</h2>
+      <p>The after-dark family. Crescent forms, blackened gold against bright, and marquise stones cut like slivers of late light. Designed to be worn together or alone, never loudly.</p>
+      <ul>
+        <li><span>Crescent pendant, fine curb chain</span><span>sampling</span></li>
+        <li><span>Marquise five-stone band</span><span>sampling</span></li>
+        <li><span>Slim ear crawler, blackened gold</span><span>sampling</span></li>
+        <li><span>Vesper choker, single crescent</span><span>in design</span></li>
+      </ul>
+    </div>
+  </div>
+</article>
+
+<article id="meridian" class="plate">
+  <div class="wrap">
+    <div class="art">
+      <svg width="320" height="260" viewBox="0 0 320 260" role="img" aria-label="Meridian collection: an engraved gold medallion and a baguette bar ring">
+        <defs>
+          <radialGradient id="mdDisc" cx=".38" cy=".3" r="1">
+            <stop offset="0" stop-color="#F4E4B8"/><stop offset=".45" stop-color="#E3C98F"/><stop offset=".8" stop-color="#B2914F"/><stop offset="1" stop-color="#846834"/>
+          </radialGradient>
+          <filter id="mSh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#06120d" flood-opacity=".6"/></filter>
+        </defs>
+        <g filter="url(#mSh)">
+          <!-- medallion disc -->
+          <circle cx="160" cy="110" r="72" fill="url(#mdDisc)" stroke="#7C6232" stroke-width="1.6"/>
+          <circle cx="160" cy="110" r="66" fill="none" stroke="#846834" stroke-width=".8" opacity=".8"/>
+          <!-- engraved meridian lines -->
+          <g fill="none" stroke="#846834" stroke-width="1.2" opacity=".9">
+            <ellipse cx="160" cy="110" rx="34" ry="66"/>
+            <ellipse cx="160" cy="110" rx="56" ry="66"/>
+            <ellipse cx="160" cy="110" rx="12" ry="66"/>
+            <path d="M94 110 h132 M104 78 a66 66 0 0 1 112 0 M104 142 a66 66 0 0 0 112 0"/>
+          </g>
+          <!-- engraving light catch: offset pale lines -->
+          <g fill="none" stroke="#FBF1D4" stroke-width=".7" opacity=".6">
+            <ellipse cx="159" cy="109" rx="34" ry="66"/>
+            <ellipse cx="159" cy="109" rx="56" ry="66"/>
+            <path d="M94 109 h132"/>
+          </g>
+          <!-- specular sweep across disc -->
+          <path d="M106 54 a72 72 0 0 1 56 -16 l-10 14 a58 58 0 0 0 -38 12 Z" fill="#FFF8E2" opacity=".5"/>
+          <circle cx="160" cy="110" r="7" fill="url(#rlG)" stroke="#7C6232" stroke-width=".8"/>
+        </g>
+        <!-- baguette bar ring -->
+        <g filter="url(#mSh)">
+          <rect x="96" y="214" width="128" height="20" rx="5" fill="url(#rlG)" stroke="#7C6232" stroke-width="1"/>
+          <rect x="99" y="217" width="122" height="4" rx="2" fill="#FBF1D4" opacity=".55"/>
+          <g fill="url(#rlStC)" stroke="#93A7B4" stroke-width=".6">
+            <rect x="118" y="218" width="16" height="12"/>
+            <rect x="138" y="218" width="16" height="12"/>
+            <rect x="158" y="218" width="16" height="12"/>
+            <rect x="178" y="218" width="16" height="12"/>
+          </g>
+          <g stroke="#ffffff" stroke-width=".6" opacity=".75" fill="none">
+            <path d="M118 224 h16 M138 224 h16 M158 224 h16 M178 224 h16"/>
+          </g>
+        </g>
+      </svg>
+    </div>
+    <div>
+      <p class="pkicker">Collection — day</p>
+      <h2>MERIDIAN</h2>
+      <p>Clean geometry for daylight: engraved longitude lines, baguette channels set edge to edge, and polished discs that catch the sun flat. The working wardrobe of the house.</p>
+      <ul>
+        <li><span>Meridian medallion, engraved lines</span><span>sampling</span></li>
+        <li><span>Baguette bar ring</span><span>sampling</span></li>
+        <li><span>Disc studs, mirror polish</span><span>sampling</span></li>
+        <li><span>Longitude bangle</span><span>in design</span></li>
+      </ul>
+    </div>
+  </div>
+</article>
+
+<article id="apres" class="plate">
+  <div class="wrap">
+    <div class="art">
+      <svg width="320" height="260" viewBox="0 0 320 260" role="img" aria-label="Après collection: three stacked brushed-gold rings and an articulated droplet earring">
+        <defs>
+          <linearGradient id="apBrush" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#EBD6A2"/><stop offset=".4" stop-color="#D3B878"/><stop offset=".75" stop-color="#A1813F"/><stop offset="1" stop-color="#7C6232"/>
+          </linearGradient>
+          <linearGradient id="apDrop" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0" stop-color="#F6FAFC"/><stop offset=".55" stop-color="#C2D6CB"/><stop offset="1" stop-color="#7FA18F"/>
+          </linearGradient>
+          <filter id="aSh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#06120d" flood-opacity=".6"/></filter>
+        </defs>
+        <!-- stacked rings as brushed gold tori -->
+        <g filter="url(#aSh)" fill="none">
+          <ellipse cx="128" cy="86" rx="66" ry="24" stroke="url(#apBrush)" stroke-width="11"/>
+          <ellipse cx="128" cy="86" rx="66" ry="24" stroke="url(#rlIn)" stroke-width="3" opacity=".8"/>
+          <ellipse cx="138" cy="120" rx="66" ry="24" stroke="url(#apBrush)" stroke-width="11"/>
+          <ellipse cx="138" cy="120" rx="66" ry="24" stroke="url(#rlIn)" stroke-width="3" opacity=".8"/>
+          <ellipse cx="130" cy="154" rx="66" ry="24" stroke="url(#apBrush)" stroke-width="11"/>
+          <ellipse cx="130" cy="154" rx="66" ry="24" stroke="url(#rlIn)" stroke-width="3" opacity=".8"/>
+        </g>
+        <!-- brushed-finish hairline strokes -->
+        <g stroke="#FBF1D4" stroke-width="1.1" stroke-linecap="round" fill="none" opacity=".65">
+          <path d="M84 70 q22 -11 44 -9"/><path d="M94 105 q22 -11 44 -9"/><path d="M86 139 q22 -11 44 -9"/>
+        </g>
+        <!-- droplet earring: rendered stone on gold hook -->
+        <g filter="url(#aSh)">
+          <path d="M240 36 q10 -8 16 0" fill="none" stroke="url(#rlG)" stroke-width="3.6" stroke-linecap="round"/>
+          <circle cx="248" cy="46" r="4.5" fill="url(#rlG)" stroke="#7C6232" stroke-width=".7"/>
+          <path d="M248 60 q26 34 0 56 q-26 -22 0 -56 z" fill="url(#apDrop)" stroke="#7FA18F" stroke-width="1"/>
+          <path d="M243 74 q-6 16 2 30 q-4 -18 -2 -30 z" fill="#ffffff" opacity=".6"/>
+          <ellipse cx="244" cy="68" rx="3.4" ry="5" fill="#ffffff" opacity=".8"/>
+        </g>
+        <path d="M60 216 q100 26 200 0" stroke="url(#rlG)" stroke-width="2" fill="none" stroke-dasharray="2 8" stroke-linecap="round"/>
+      </svg>
+    </div>
+    <div>
+      <p class="pkicker">Collection — off-duty</p>
+      <h2>APRÈS</h2>
+      <p>What you don't take off. Soft-edged stacking rings, a droplet earring weighted to move, and brushed finishes that forgive a life actually lived. Après is the collection you sleep in.</p>
+      <ul>
+        <li><span>Stacking trio, brushed gold</span><span>sampling</span></li>
+        <li><span>Droplet earring, articulated</span><span>sampling</span></li>
+        <li><span>Everyday curb chain, hidden clasp</span><span>in design</span></li>
+      </ul>
+    </div>
+  </div>
+</article>
+
+<section class="atelier">
+  <div class="wrap">
+    <h2>How a collection is built</h2>
+    <p><b>Designed as a family.</b> Every collection starts as one silhouette study — a curve, a line, a cut — and every piece in it inherits that study. That's why Vesper pieces layer with Vesper, and why nothing here is a one-off.</p>
+    <p><b>Released as drops.</b> Each piece is made in a small, stated quantity per drop. When a drop sells through, the piece waits for the next making — we don't backorder what doesn't exist.</p>
+    <p><b>Named for what they are.</b> Metals and stones are listed plainly on every piece at release: karat, weight, stone type and origin of grading. Lab-grown is labeled lab-grown.</p>
+  </div>
+</section>
+
+<section id="drop" class="drop">
+  <div class="wrap">
+    <div>
+      <h2>The drop list</h2>
+      <p class="sub">Drops will be announced here first, with quantities and dates. Join the list and pick the collection you're watching — one note per drop, nothing more.</p>
+    </div>
+    <form action="#" method="post" onsubmit="event.preventDefault();this.querySelector('.form-note').textContent='Lovely — drop notes begin when the first release is dated. Nothing you typed left your browser.';">
+      <div>
+        <label for="nm">Name</label>
+        <input id="nm" name="name" autocomplete="name" required>
+      </div>
+      <div>
+        <label for="watching">Watching</label>
+        <select id="watching" name="watching"><option>Vesper</option><option>Meridian</option><option>Après</option><option>All three</option></select>
+      </div>
+      <button class="btn" type="submit">Join the drop list</button>
+      <p class="form-note">Submissions open at launch — nothing you type here leaves your browser yet.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="fbrand">ROYALE BLINGS</span>
+    <nav aria-label="Footer">
+      <a href="#vesper">Vesper</a>
+      <a href="#meridian">Meridian</a>
+      <a href="#apres">Après</a>
+      <a href="/privacy.html">Privacy</a>
+      <a href="/terms.html">Terms</a>
+    </nav>
+    <div class="fineprint">
+      <span>© 2026 Royale Blings. All rights reserved.</span>
+      <span>Collections shown are in sampling; the first drop has not yet been released.</span>
+    </div>
+  </div>
+</footer>
+</body>
+</html>

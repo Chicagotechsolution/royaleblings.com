@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://royaleblings.com/sitemap.xml
